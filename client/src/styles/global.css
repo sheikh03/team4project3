@@ -1,0 +1,26 @@
+/* client/src/styles/global.css */
+body {
+    margin: 0;
+    font-family: 'Inter Tight', sans-serif;
+    background: linear-gradient(180deg, #202c88 0%, #090979 15%, #000212 100%);
+    color: #fff;
+    min-height: 100vh;
+  }
+  
+  main {
+    padding: 2rem 1rem;
+  }
+  
+  /* Buttons default style */
+  button {
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #1a1a1a;
+    color: #fff;
+    transition: background-color 0.2s;
+  }
+  button:hover {
+    background-color: #646cff;
+  }
+  

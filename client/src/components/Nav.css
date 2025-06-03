@@ -1,0 +1,39 @@
+.nav-bar {
+    background: linear-gradient(180deg, #202c88 0%, #090979 15%, #000212 100%);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-logo {
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  
+  .nav-link:hover {
+    color: #646cff;
+  }
+  
+  .nav-link button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
